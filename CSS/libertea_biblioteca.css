@@ -9,11 +9,19 @@
     background-size: cover;
 }
 
+    .mobile-only {
+	display: none;
+}
+
 @media only screen and (max-width: 425px){
 	#body{	
 		background-image: none;
 		height: 100%;
 		width: 100%;
+	}
+	
+	.mobile-only {
+		display: inline !important;
 	}
 }
 
