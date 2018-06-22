@@ -20,6 +20,10 @@
 		width: 100%;
 	}
 	
+	.img {
+		position: relative;
+	}
+	
 	.mobile-only {
 		display: flex !important;
 		position: absolute;
