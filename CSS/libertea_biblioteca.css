@@ -23,12 +23,6 @@
 	.mobile-only {
 		display: flex !important;
 	}
-	
-	.input:after{
-		conent:url(https://ghlibrary.000webhostapp.com/libertea_snake.png);
-		width= 40px;
-		height=45px;
-	}
 }
 
 #myInput {
