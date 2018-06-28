@@ -23,7 +23,6 @@
 	.mobile-only {
 		display: inline-block;
 		display: flex;
-		position: absolute!important;
     		top: 0px;
     		right: 0px;
 	}
