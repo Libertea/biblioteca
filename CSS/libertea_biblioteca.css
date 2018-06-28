@@ -28,11 +28,6 @@
     		right: 0px;
 	}
 	
-	#divImg {
-		position: relative;
-		right: 15px;
-		left: 15px;
-	}
 }
 
 #myInput {
@@ -62,4 +57,8 @@ table tr td{
 	background-color: rgba(0,0,0,0.00)!important;
 }
 
-
+#divImg {
+		position: relative;
+		right: 15px;
+		left: 15px;
+	}
