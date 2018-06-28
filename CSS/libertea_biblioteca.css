@@ -9,10 +9,10 @@
     background-size: cover;
 }
 
-   /* .mobile-only {
+    .mobile-only {
 	display: none;
 }
-*/
+
 
 @media only screen and (max-width: 425px){
 	#body{	
@@ -22,10 +22,9 @@
 	}
 	
 	.mobile-only {
-		display: inline-block;
-		display: flex;
-    		top: 0px;
-    		right: 0px;
+	position: fixed;
+	top: 4px;
+	left: 85%;
 	}
 	
 }
@@ -57,8 +56,8 @@ table tr td{
 	background-color: rgba(0,0,0,0.00)!important;
 }
 
-#divImg {
+/*#divImg {
 	position: fixed;
 	top: 4px;
 	left: 85%;
-	}
+	}*/
