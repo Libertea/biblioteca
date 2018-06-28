@@ -27,6 +27,10 @@
     		top: 0px;
     		right: 0px;
 	}
+	
+	.cross:after {
+    content:url(/ico/cross.png);
+	}
 }
 
 #myInput {
