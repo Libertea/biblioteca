@@ -21,8 +21,6 @@
 	}
 	
 	.mobile-only {
-		display: flex!important;
-		position: absolute;
 		display: inline-block;
 		padding-right: 30px;
     		top: 0px;
