@@ -22,7 +22,7 @@
 	
 	.mobile-only {
 		display: flex;
-		position: absolute;
+		position: absolute!important;
     		top: 0px;
     		right: 0px;
 	}
