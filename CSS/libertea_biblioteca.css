@@ -21,11 +21,11 @@
 		width: 100%;
 	}
 	
-	.mobile-only {
+	#divImg {
 	position: fixed;
 	top: 4px;
 	left: 85%;
-	}
+	}*/
 	
 }
 
