@@ -21,7 +21,7 @@
 	}
 	
 	.mobile-only {
-		display: flex;
+		display: flex!important;
 		position: absolute!important;
     		top: 0px;
     		right: 0px;
