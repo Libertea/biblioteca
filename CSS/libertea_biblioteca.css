@@ -1,63 +1,70 @@
-
 #body{
-	
-	background-image: url(https://ghlibrary.000webhostapp.com/libertea_background.png);
-	height: 100%;
-	background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-    #divImg {
-	display: none;
-}
-
-
-@media only screen and (max-width: 425px){
-	#body{	
-		background-image: none;
+		
+		background-image: url(https://ghlibrary.000webhostapp.com/libertea_background.png);
 		height: 100%;
-		width: 100%;
+		background-attachment: fixed;
+	    background-position: center;
+	    background-repeat: no-repeat;
+	    background-size: cover;
 	}
 	
-	#divImg {
-	position: fixed;
-	top: 4px;
-	left: 85%;
-	}*/
+
+	   /* .mobile-only {
+		display: none;
+	}
+	*/
 	
-}
 
-#myInput {
-  background-image: url(https://ghlibrary.000webhostapp.com/search-icon-small.png);
-  background-position: 5px 10px;
-  background-repeat: no-repeat;
-  width: 100%;
-  font-size: 16px;
-  padding: 12px 20px 12px 40px;
-  border: 1px solid #ddd;
-  margin-bottom: 12px;
-}
+	@media only screen and (max-width: 425px){
+		#body{	
+			background-image: none;
+			height: 100%;
+			width: 100%;
+		}
+		
+		.mobile-only {
+			display: inline-block;
+			display: flex;
+	    		top: 0px;
+	    		right: 0px;
+		}
+		
+	}
+	
 
-#myTable {
-  border-collapse: collapse;
-  width: 100%;
-  border: 1px solid #ddd;
-  font-size: 18px;
-}
+	#myInput {
+	  background-image: url(https://ghlibrary.000webhostapp.com/search-icon-small.png);
+	  background-position: 5px 10px;
+	  background-repeat: no-repeat;
+	  width: 100%;
+	  font-size: 16px;
+	  padding: 12px 20px 12px 40px;
+	  border: 1px solid #ddd;
+	  margin-bottom: 12px;
+	}
+	
 
-#thead {
-	font-size: 20px;
-	font-size-adjust: auto;
-}
+	#myTable {
+	  border-collapse: collapse;
+	  width: 100%;
+	  border: 1px solid #ddd;
+	  font-size: 18px;
+	}
+	
 
-table tr td{	
-	background-color: rgba(0,0,0,0.00)!important;
-}
+	#thead {
+		font-size: 20px;
+		font-size-adjust: auto;
+	}
+	
 
-/*#divImg {
-	position: fixed;
-	top: 4px;
-	left: 85%;
-	}*/
+	table tr td{	
+		background-color: rgba(0,0,0,0.00)!important;
+	}
+	
+
+	#divImg {
+		position: fixed;
+		top: 4px;
+		left: 85%;
+		}
