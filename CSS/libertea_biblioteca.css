@@ -28,7 +28,7 @@
     		right: 0px;
 	}
 	
-	.cross:after {
+	.myInput:after {
     content:url(https://ghlibrary.000webhostapp.com/libertea_snake.png);
 	}
 }
