@@ -31,6 +31,15 @@ function mySearch() {
   }
 }
 </script>
+	
+<script>
+      $(document).ready(function(){
+          $('#last_name').addClass('cross');
+      });
+</script>
+
+<label for="last_name">*Last Name:</label>
+<input type="text" id="last_name" value="<?=$last_name?>" />
 
 <div>
   <input type="text" id="myInput" onkeyup="mySearch()" placeholder="Procure por título..." title="Digite um nome">
