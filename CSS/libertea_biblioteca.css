@@ -27,10 +27,6 @@
     		top: 0px;
     		right: 0px;
 	}
-	
-	.myInput:after {
-    content:url(https://ghlibrary.000webhostapp.com/libertea_snake.png);
-	}
 }
 
 #myInput {
