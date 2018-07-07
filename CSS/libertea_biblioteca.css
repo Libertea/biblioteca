@@ -11,10 +11,10 @@
 	}
 	
 
-	   /* .mobile-only {
+	    .mobile-only {
 		display: none;
 	}
-	*/
+	
 	
 
 	@media only screen and (max-width: 425px){
@@ -24,17 +24,8 @@
 			width: 100%;
 		}
 		
-		.mobile-only {
-			display: inline-block;
-			display: flex;
-	    		top: 0px;
-	    		right: 0px;
-		}
-		
-		#divImg {
-		position: fixed;
-		top: 4px;
-		left: 85%;
+	.mobile-only {
+		position: absolute;
 		}
 		
 	}
