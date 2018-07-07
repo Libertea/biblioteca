@@ -11,7 +11,7 @@
 	}
 	
 
-	    .mobile-only {
+	    #divImg {
 		display: none;
 	}
 	
@@ -24,8 +24,11 @@
 			width: 100%;
 		}
 		
-	.mobile-only {
+	#divImg {
 		position: absolute;
+-		position: fixed;
+-		top: 4px;
+-		left: 85%;
 		}
 		
 	}
