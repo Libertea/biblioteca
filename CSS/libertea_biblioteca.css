@@ -43,6 +43,7 @@
 	  border: 1px solid #ddd;
 	  margin-bottom: 12px;
 	  position: fixed;
+	  z-index: 999;
 	}
 	
 
