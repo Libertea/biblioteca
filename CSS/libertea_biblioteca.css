@@ -25,7 +25,7 @@
 		}
 		
 	#divImg {
-		position: absolute;
+		position: absolute!important;
 -		position: fixed;
 -		top: 4px;
 -		left: 85%;
