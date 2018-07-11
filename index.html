@@ -11,33 +11,29 @@
 
 <body id="body">
   
-  <script>
-document.getElementById("myInput").addEventListener("keyup", function(){
-	var busca = document.getElementById("myInput").value.toLowerCase();
-	console.clear();
+<script>
+function tSearch() {
 
-	for (var i = 0; i < tbody.childNodes.lenght; i++) {
-		var achou = false;
-		var tr = tbody = tbody.childNodes[i];
-		var td = tr.childNodes;
+  var input, filter, table, tr, td, i;
+  input = document.getElementById("myInput");
+  filter = input.value.toUpperCase();
+  table = document.getElementById("myTable");
+  tr = table.getElementsByTagName("tr");
 
-	for (var j = 0; j < td.lenght; j++) {
-		var value = td[j].childNodes[0].nodeValue.toLowerCase();
-		console.log(value);
-		if (value.indexOf(busca)>= 0) {
-			achou = true;
-		}
-	}
-
-	if (achou) {
-		tr.style.display = "table-row";
-	} else {
-		tr.style.display = "none";
-		}
-	}
-	});
+  for (i = 0; i < tr.length; i++) {
+    td = tr[i].getElementsByTagName("td")[0];
+    if (td) {
+      if (tr.innerHTML.toUpperCase().indexOf(filter) > -1) {
+        tr[i].style.display = "";
+      } else {
+        tr[i].style.display = "none";
+      }
+    }
+  }
+}
 	  
-</script>
+</script
+
 	
 <div id="divImg">
   <img class="mobile-only" src="https://ghlibrary.000webhostapp.com/libertea_snake.png" width="40" height="45">
