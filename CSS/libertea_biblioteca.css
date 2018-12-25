@@ -38,7 +38,7 @@
 	}
 	
 
-	#search {
+	#myInput {
 	  background-image: url(https://ghlibrary.000webhostapp.com/search-icon-small.png);
 	  background-position: 5px 10px;
 	  background-repeat: no-repeat;
@@ -53,7 +53,7 @@
 	}
 	
 
-	#table {
+	#myTable {
 	  border-collapse: collapse;
 	  width: 100%;
 	  border: 1px solid #ddd;
