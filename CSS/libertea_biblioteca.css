@@ -29,9 +29,9 @@
 		
 	#divImg {
 		position: absolute!important;
--		position: fixed;
--		top: 4px;
--		left: 85%;
+		position: fixed;
+		top: 4px;
+		left: 85%;
 		z-index: 999;
 		}
 		
