@@ -15,7 +15,7 @@
 </div>
 	<a &nbsp;/>
 <div id="divInput">
-  <input type="text" id="search" placeholder="Procure por título, autor...">
+  <input type="text" id="search" placeholder="Procure por título...">
 </div>
 
 <table class="table" id="table">
@@ -540,7 +540,7 @@
 	function iSearch() {
 
 	  var input, filter, table, tr, td, i;
-	  input = document.getElementById("uInput");
+	  input = document.getElementById("search");
 	  filter = input.value.toUpperCase();
 	  table = document.getElementById("table");
 	  tr = table.getElementsByTagName("tr");
