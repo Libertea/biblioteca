@@ -1,3 +1,6 @@
+@charset "utf-8";
+/* CSS Document */
+
 #body{
 		
 		background-image: url(https://ghlibrary.000webhostapp.com/libertea_background.png);
@@ -35,7 +38,7 @@
 	}
 	
 
-	#divInput {
+	#search {
 	  background-image: url(https://ghlibrary.000webhostapp.com/search-icon-small.png);
 	  background-position: 5px 10px;
 	  background-repeat: no-repeat;
@@ -66,4 +69,5 @@
 
 	table tr td{	
 		background-color: rgba(0,0,0,0.00)!important;
-	}
+}
+	
