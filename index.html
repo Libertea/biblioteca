@@ -2,48 +2,24 @@
 <head>
 <meta charset="utf-8">
 <title>Biblioteca Libertea</title>
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css">
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
 <link rel="stylesheet" type="text/css" href="CSS/libertea_biblioteca.css">
 <link rel="shortcut icon" href="favicon.ico">
 <meta name="viewport" content="width=device-width">
 </head>
 
 <body id="body">
-  
-<script>
-function mySearch() {
-
-  var input, filter, table, tr, td, i;
-  input = document.getElementById("myInput");
-  filter = input.value.toUpperCase();
-  table = document.getElementById("myTable");
-  tr = table.getElementsByTagName("tr");
-
-  for (i = 0; i < tr.length; i++) {
-    td = tr[i].getElementsByTagName("td")[0];
-    if (td) {
-      if (td.innerHTML.toUpperCase().indexOf(filter) > -1) {
-        tr[i].style.display = "";
-      } else {
-        tr[i].style.display = "none";
-      }
-    }
-  }
-}
-	  
-	</script>
-
 	
 <div id="divImg">
   <img class="mobile-only" src="https://ghlibrary.000webhostapp.com/libertea_snake.png" width="40" height="45">
 </div>
 	<a &nbsp;/>
 <div id="divInput">
-  <input type="text" id="myInput" onkeyup="mySearch()" placeholder="Procure por título...">
+  <input type="text" id="uInput" onkeyup="iSearch()" placeholder="Procure por título...">
 </div>
 
-<table class="table" id="myTable">
+<table class="table" id="table">
   <thead class="thead-dark" id="thead">
     <tr class="header">
       <th width="59" scope="col">Idioma</th>
@@ -559,5 +535,28 @@ function mySearch() {
 </table>
 
 </body>
+		  
+	<script>
+	function iSearch() {
+
+	  var input, filter, table, tr, td, i;
+	  input = document.getElementById("uInput");
+	  filter = input.value.toUpperCase();
+	  table = document.getElementById("table");
+	  tr = table.getElementsByTagName("tr");
+
+	  for (i = 0; i < tr.length; i++) {
+	    td = tr[i].getElementsByTagName("td")[0];
+	    if (td) {
+	      if (td.innerHTML.toUpperCase().indexOf(filter) > -1) {
+		tr[i].style.display = "";
+	      } else {
+		tr[i].style.display = "none";
+	      }
+	    }
+	  }
+	}
+
+	</script>
 </html>
 
